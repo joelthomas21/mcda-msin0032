@@ -48,7 +48,14 @@ All outputs are printed to the console.
    cd mcda-msin0032
    ```
 
-2. Install the required packages:
+2. Create and activate a virtual environment:
+   ```
+   python -m venv test_env
+   source test_env/bin/activate      # Mac/Linux
+   test_env\Scripts\activate         # Windows
+   ```
+
+3. Install the required packages:
    ```
    pip install -r requirements.txt
    ```
